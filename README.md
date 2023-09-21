@@ -1,22 +1,23 @@
 # Weather Data Application
 
-## Описание
-Это приложение Python, которое выводит текущие погодные данные для введенного названия города.
+## Description
+This is a Python application that outputs the current weather data for the entered city name.
 
-## Установка
-1. Склонируйте этот репозиторий на свой локальный компьютер.
-2. Убедитесь, что у вас установлен Python 3.6 или более поздней версии.
-3. Установите необходимые библиотеки Python, выполнив следующие команды в терминале:
+## Installation
+1. Clone this repository to your local machine.
+2. Ensure you have Python 3.6 or later installed.
+3. Install the necessary Python libraries by running the following commands in your terminal:
     ```
     pip install pandas
     pip install requests
     ```
-## Использование
-1. Запустите приложение, выполнив `python app.py` в терминале.
-2. При запросе введите название города, для которого вы хотите получить погодные данные.
 
-## Поддержка
-Если у вас возникли проблемы или вопросы, создайте новый выпуск в этом репозитории.
+## Usage
+1. Run the application by executing `python app.py` in your terminal.
+2. When prompted, enter the name of the city for which you want to get weather data.
 
-## Лицензия
-Этот проект лицензирован под условиями MIT License. Подробности см. в файле LICENSE.
+## Support
+If you encounter any issues or have questions, please create a new issue in this repository.
+
+## License
+This project is licensed under the terms of the MIT License. See the LICENSE file for details.
