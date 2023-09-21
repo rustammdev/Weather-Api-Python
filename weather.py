@@ -13,7 +13,7 @@ class Weather:
 
     def str(self) -> str:
         weather_dc = pd.DataFrame ({
-            'Malumotlar' : ['Shaxar:', 'Kun:', 'Tempratura(c):', 'Eng yuqori tempratura:', 'Eng quyi tempratura:', 'Shamol tezligi(m/s):'],
+            'Malumotlar' : ['City:', 'Day:', 'Tempratura(c):', 'The highest temperature:', 'The lowest temperature:', 'Wind speed(m/s):'],
             'Qiymatlar' : [location, self.kun, self.deegre, self.max_temp, self.min_temp, self.shamol_s]
         })
         return str(weather_dc)
@@ -23,11 +23,11 @@ class Weather:
 if name == "main":
 
     print()
-    print("Manzilingizni inglis tilida kiriting.")
+    print("Enter the name of your city in English")
     location = input('>>>>> ')
     try:
         #Weather Api key
-        API_KEY = "1487f6fe5449e8775aa9d424d1da33b4"
+        API_KEY = "Your-api-key"
 
         url = "https://api.openweathermap.org/data/2.5/weather"
         payload = {
